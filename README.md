@@ -16,7 +16,7 @@
 
 ## Descripción del proyecto
 
-Este proyecto consiste en una **calculadora en Java** con las cuatro operaciones matemáticas básicas: suma, resta, multiplicación y división. Ha sido desarrollado de forma colaborativa aplicando control de versiones con Git y GitHub, como parte de la actividad 4.1 del módulo de Entornos de Desarrollo.
+Este proyecto consiste en una **calculadora en Java** con las cuatro operaciones matemáticas básicas: suma, resta, multiplicación y división. Ha sido desarrollado de forma colaborativa aplicando control de versiones con Git y GitHub, como parte de la actividad 4.1 del módulo de Entornos de Desarrollo..
 
 ---
 
