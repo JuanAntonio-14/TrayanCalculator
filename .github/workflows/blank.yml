@@ -23,11 +23,11 @@ jobs:
       - name: Descargar JUnit
         run: wget https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.9.3/junit-platform-console-standalone-1.9.3.jar
 
-      # Compilar Archivos Java (src y test)
+      # Compilar Archivos Java (Calculadora y test)
       - name: Compilar codigo
         run: |
           mkdir -p out
-          javac -cp junit-platform-console-standalone-1.9.3.jar -d out $(find src test -name "*.java")
+          javac -cp junit-platform-console-standalone-1.9.3.jar -d out Calculadora.java $(find test -name "*.java")
 
       # Ejecutar los tests
       - name: Ejecutar tests
